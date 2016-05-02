@@ -1,12 +1,17 @@
 # automating-your-workflow-with-gulp
 
-Gulp是一个非常棒的自动化构建工具, 这是一份我用过的 Gulp 插件列表以及一些 recipes. 
+Gulp是一个非常棒的自动化构建工具, 这是一份内部分享的材料, 包括一个slide, 一个demo, 我用过的 Gulp 插件介绍以及一些 recipes.
 
-=========
+如果你有更好的展示形式或者更好的资料, 欢迎star, 发pr哦.
 
-[关于Gulp的一个Slide](http://slides.com/xy2/gulp/live)
+# Slide
 
-=========
+[关于Gulp的一个Slide](http://slides.com/xy2/gulp/fullscreen)
+
+# demo
+
+请看demo目录下, (node4以上, gulp4.0)
+
 
 # 插件
 
@@ -16,7 +21,7 @@ Gulp是一个非常棒的自动化构建工具, 这是一份我用过的 Gulp �
 * [gulp-sass](https://github.com/dlmanning/gulp-sass) - 将 Sass 编译成 CSS
 * [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js) 编译成 CSS.
 * [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) 编译成 CSS.
-* [gulp-autopreﬁxer]
+* [gulp-autopreﬁxer](https://github.com/sindresorhus/gulp-autoprefixer) - 添加厂商前缀
 
 ### JS
 * [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) 编译成JavaScript.
