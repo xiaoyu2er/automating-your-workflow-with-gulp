@@ -47,7 +47,7 @@ Gulp是一个非常棒的自动化构建工具, 这是一份内部分享的材�
 * [run-sequence](https://github.com/OverZealous/run-sequence) - 按照顺序执行task (注意: 在 Gulp4.0 中, 已经提供了 gulp.series 方法)
 * [gulp-if](https://github.com/robrich/gulp-if) - If-Else-流程控制
 * [gulp-ignore](https://github.com/robrich/gulp-ignore) - 选择性过滤文件
-* * [gulp-filter](https://github.com/sindresorhus/gulp-filter) - 过滤文件, 和 gulp-ignore感觉类似
+* [gulp-filter](https://github.com/sindresorhus/gulp-filter) - 过滤文件, 和 gulp-ignore感觉类似
 * [merge-stream](https://github.com/grncdr/merge-stream) - Merge multiple streams into one interleaved stream.
 * [event-stream](https://github.com/dominictarr/event-stream) - 方便操作stream
 * [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors.
