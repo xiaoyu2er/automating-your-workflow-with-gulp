@@ -14,8 +14,6 @@ var sass = require('gulp-sass');
 var iife = require('gulp-iife');
 var print = require('gulp-print');
 var eventStream = require('event-stream');
-
-
 var ngAnnotate = require('gulp-ng-annotate');
 var ngTemplates = require('gulp-ng-templates');
 
@@ -80,9 +78,6 @@ gulp.task('js', function () {
             useStrict: false,
             trimCode: true,
             prependSemicolon: true
-            // bindThis: false,
-            // params: ["window", "document", "$", "undefined"],
-            // args: ["window", "document", "jQuery"]
         }))
         .pipe(gulp.dest(config.buildDir))
 });
@@ -99,7 +94,6 @@ gulp.task('assets', function () {
  * 将angular的模板文件经ngTemplate处理合并为一个js文件, 输出到build/js目录下
  */
 gulp.task('tpl', function () {
-
     return gulp.src(config.tplPath)
         .pipe(ngTemplates({
             filename: 'js/templates.js',
@@ -115,12 +109,9 @@ gulp.task('tpl', function () {
  * 注意, 由于js文件间有依赖关系, 所以js文件流的后面添加了一部print操作, 可以在调试的时候打开, 这样可以看到文件的排序结果;
  */
 gulp.task('inject', function () {
-
     var cssStream = gulp.src(config.cssInjectPath, {read: false, base: config.buildDir});
-
     var jsStream = gulp.src(config.jsInjectPath, {read: false, base: config.buildDir})
         .pipe(order(config.jsOrder));
-    // .pipe(print());
 
     var allStream = eventStream.merge(cssStream, jsStream);
 

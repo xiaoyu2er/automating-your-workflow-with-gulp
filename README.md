@@ -11,6 +11,7 @@ Gulp是一个非常棒的自动化构建工具, 这是一份内部分享的材�
 # demo
 
 请看demo目录下, (node4以上, gulp4.0)
+注意: 确保版本正确, 在slide中有相关介绍.
 
 
 # 插件
@@ -98,6 +99,7 @@ Gulp是一个非常棒的自动化构建工具, 这是一份内部分享的材�
 + [视频 JavaScript Build Automation With Gulp](pan.baidu.com/s/1i56ObbB)
 + [Gulp Github](https://github.com/gulpjs/gulp)
 + [Gulp 简体中文文档](https://github.com/lisposter/gulp-docs-zh-cn)
++ [Gulp 4 入门指南](https://github.com/baixing/FE-Blog/issues/7)
 + [Gulp 4.0](https://github.com/gulpjs/gulp/blob/4.0/docs/API.md)
 + [awesome-gulp](https://github.com/alferov/awesome-gulp)
 + [awesome-gulp-cn](https://github.com/Pines-Cheng/awesome-gulp-cn)
