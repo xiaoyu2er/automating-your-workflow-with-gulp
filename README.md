@@ -6,7 +6,7 @@ Gulp是一个非常棒的自动化构建工具, 这是一份内部分享的材�
 
 # Slide
 
-[关于Gulp的一个Slide](http://slides.com/xy2/gulp/fullscreen)
+[关于Gulp的一个Slide](http://slides.com/xy2/gulp-1/fullscreen)
 
 # demo
 
