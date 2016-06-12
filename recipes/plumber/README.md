@@ -35,7 +35,6 @@
 
 ```
     .pipe(customerPlumber('Running Scss')) // 尝试去掉这一行
-
 ```
 
 然后在运行以下, 故意写错, 看看是什么吧~

@@ -3,12 +3,10 @@ var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
 var sass = require('gulp-sass');
 
-
 var config = {
     scssPath: ['./test.scss'],
     buildDir: 'build/'
 };
-
 
 gulp.task('scss', function () {
     return gulp.src(config.scssPath)
@@ -16,6 +14,7 @@ gulp.task('scss', function () {
         .pipe(sass())
         .pipe(gulp.dest(config.buildDir))
 });
+
 gulp.task('watch', function () {
     gulp.watch(config.scssPath, gulp.task('scss'));
 });
