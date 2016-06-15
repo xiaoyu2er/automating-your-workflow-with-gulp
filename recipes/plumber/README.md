@@ -14,6 +14,7 @@
 
 ## 有关插件
 
++ [gulp-sass](https://github.com/dlmanning/gulp-sass)
 + [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Send messages to Mac Notification Center, Linux notifications (using notify-send) or Windows >= 8
 + [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors from gulp plugins
 
